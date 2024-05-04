@@ -16,7 +16,7 @@
 
   /* Header'da bulunan butonların stili */
   .button-style{
-    @apply  text-white  rounded-md poppins-regular hover:bg-[#E1A530] hover:text-white py-2 duration-200 border border-white hover:border-[#E1A530]
+    @apply  text-white  rounded-md poppins-regular hover:bg-[#E1A530] hover:text-white  duration-200 border border-white hover:border-[#E1A530]
   }
   
 
