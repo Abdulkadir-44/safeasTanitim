@@ -252,7 +252,7 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">ENTERPRISE</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">120.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">150.000 ASIN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$204.99</span>
                                 <span className="  text-gray-400">/aylık</span>

@@ -15,7 +15,7 @@ const faqContent = [
   {
     id: 3,
     title: "Paketlerde bulunan aylık ASIN tarama hakkı yeterli olur mu ?",
-    content: "Paket seçimini ihtiyacınıza göre yapmanız durumunda yeterli olur. Örneğin mağazanızda 3.* adet ürün var ve sermayeniz, mağazanızın durumu veya yoğunluk gibi bir çok faktörü göz önünde bulundurduktan sonra 4.* adet ürün daha eklemeyi planlıyorsunuz bu durumda 10.000 adet ASIN tarama hakkının olduğu STANDART paket yeterli olacaktır."
+    content: "Paket seçimini ihtiyacınıza göre yapmanız durumunda yeterli olur. Örneğin mağazanızda 3.*** adet ürün var ve sermayeniz, mağazanızın durumu veya yoğunluk gibi bir çok faktörü göz önünde bulundurduktan sonra 4.*** adet ürün daha eklemeyi planlıyorsunuz bu durumda 10.000 adet ASIN tarama hakkının olduğu STANDART paket yeterli olacaktır."
   },
   {
     id: 4,
