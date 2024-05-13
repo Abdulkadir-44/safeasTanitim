@@ -4,7 +4,7 @@ export const MidMain = () => {
 
     return (
         <>
-            <div  id='solutions' style={{ backgroundImage: "url('./stains/9.png')", backgroundSize: "cover" }}>
+            <div  id='solutions' style={{ backgroundImage: "url('/stains/9.png')", backgroundSize: "cover" }}>
                 <div className='flex items-center justify-center pt-6'>
                     <h1 className='text-3xl poppins-semibold bg-[#1F3C54] text-white px-5 py-2 rounded-xl'>ÇÖZÜMLER</h1>
                 </div>
@@ -17,11 +17,11 @@ export const MidMain = () => {
                         <p className='poppins-regular'>Amazon politikalarına uygunluk çerçevesinde satıcıların uyması beklenen bir çok maddeden biri de Hesap Sağlığıdır. Dropshipping iş modeli ile çalışan satıcıların karşılaştığı en büyük problemlerden biri Fikri Mülkiyet İhlalleridir.
                             (Intellectual Property)</p>
                     </div>
-                    <div style={{ backgroundImage: "url('./solutions2/1.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
+                    <div style={{ backgroundImage: "url('/solutions2/1.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
                 </div>
 
                 <div className='flex  px-10 gap-x-10 items-center '>
-                    <div style={{ backgroundImage: "url('./solutions2/2.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
+                    <div style={{ backgroundImage: "url('/solutions2/2.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
                     <div className='flex-1 pt-5 sm:pt-0 border-r-4 border-b-4 border-[#1E364E] pr-4 pb-4 border-dotted rounded-lg'>
                         <div className='flex items-center mb-5 gap-x-2 justify-end'>
                             <h1 className='poppins-semibold text-3xl text-[#1E364E] '>Geçici Çözümler</h1>
@@ -46,15 +46,15 @@ export const MidMain = () => {
                             Fikri Mülkiyet İhlali için $50-$150
                             istenmektedir.</p>
                     </div>
-                    <div style={{ backgroundImage: "url('./solutions2/3.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
+                    <div style={{ backgroundImage: "url('/solutions2/3.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
                 </div>
 
             </div>
 
 
-            <div id='solutions' style={{ backgroundImage: "url('./stains/1.png')", backgroundSize: "contain" }}>
+            <div id='solutions' style={{ backgroundImage: "url('/stains/1.png')", backgroundSize: "contain" }}>
                 <div className='flex  px-10 gap-x-8 items-center'>
-                    <div style={{ backgroundImage: "url('./solutions2/4.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
+                    <div style={{ backgroundImage: "url('/solutions2/4.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
                     <div className='flex-1 border-r-4 border-b-4 border-[#1E364E] pr-4 pb-4 border-dotted rounded-md'>
                         <div className='flex items-center mb-5 gap-x-2 justify-end pt-5 sm:pt-0'>
                             <h1 className='poppins-semibold text-3xl text-[#1E364E] '>Geçiçi Çözümlerden Sıkılmadın Mı ?</h1>
@@ -77,7 +77,7 @@ export const MidMain = () => {
                             Sermayenizi ve Mağaza itibarınızı doğru kullanın.</p>
                     </div>
 
-                    <div style={{ backgroundImage: "url('./solutions2/5.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
+                    <div style={{ backgroundImage: "url('/solutions2/5.png')", backgroundSize: "cover" }} className='flex-1 h-[560px] hidden sm:flex'></div>
                 </div>
 
                 <FAQ/>

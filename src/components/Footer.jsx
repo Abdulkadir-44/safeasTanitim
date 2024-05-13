@@ -1,16 +1,21 @@
 import React, { useState } from 'react'
 import { FaInstagram, FaWhatsapp } from "react-icons/fa"
+import {Link} from "react-router-dom"
+
+
 const Footer = () => {
-  const [deneme, setDeneme] = useState(false)
+
+  const [isconfirm, setIsconfirm] = useState(false)
+  
   const handleClick = () => {
-    const confirm = window.confirm("WhatsApp ile iletişime geçmek istediğinize emin misiniz ?")
-    if (confirm)
-      setDeneme(true)
+    const info = window.confirm("WhatsApp ile iletişime geçmek istediğinize emin misiniz ?")
+    if (info)
+      setIsconfirm(true)
     else
-      setDeneme(false)
+      setIsconfirm(false)
   }
   return (
-    <footer className='px-10 py-8' style={{ backgroundImage: "url('./background.jpeg')", backgroundPosition: "center", backgroundSize: "cover" }}>
+    <footer className='px-10 py-8' style={{ backgroundImage: "url('/background.jpeg')", backgroundPosition: "center", backgroundSize: "cover" }}>
       <div className='sm:flex sm:justify-between '>
         <div className='text-center'>
           <h1 className='poppins-medium text-white text-4xl mb-4'>Safe-<span className='text-[#E1A530] text-[40px]'>A</span>s</h1>
@@ -18,7 +23,7 @@ const Footer = () => {
           <div className='text-4xl flex gap-x-3 mt-10 justify-center sm:justify-start mb-10 sm:mb-0'>
             <a className='text-white bg-[#E19930] p-2 rounded-full hover:text-[#E19930] hover:bg-white duration-150 hover:scale-110' target='_blank' href="https://www.instagram.com/safeasofficial/"><FaInstagram /></a>
             <a onClick={handleClick}
-              className='text-white bg-[#57D970] p-2 rounded-full hover:text-[#57D970] hover:bg-white duration-150 hover:scale-110' target='_blank' href={`${deneme ? 'https://wa.me/905550905221' : '#'}`}><FaWhatsapp /></a>
+              className='text-white bg-[#57D970] p-2 rounded-full hover:text-[#57D970] hover:bg-white duration-150 hover:scale-110' target='_blank' href={`${isconfirm ? 'https://wa.me/905550905221' : '#'}`}><FaWhatsapp /></a>
 
           </div>
         </div>
@@ -29,7 +34,7 @@ const Footer = () => {
           <a className='hover:text-[#E1A530] duration-150 hover:scale-105' href="#pricing">Fiyatlandırma</a>
           <a className='hover:text-[#E1A530] duration-150 hover:scale-105' href="#plans">Planlanan Gelişmeler</a>
           <a className='hover:text-[#E1A530] duration-150 hover:scale-105' href="#faq">S.S.S</a>
-          <a className='hover:text-[#E1A530] duration-150 hover:scale-105' href="#">Randevu Al</a>
+          <Link className='hover:text-[#E1A530] duration-150 hover:scale-105' to="/randevu-al">Randevu Al</Link>
         </div>
         <div className='text-white text-center poppins-regular'>
           <h1 className='text-lg mb-5'>SCHIO DIŞ TİCARET LİMİTED ŞİRKETİ</h1>

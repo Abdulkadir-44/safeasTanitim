@@ -7,7 +7,7 @@ const Header = () => {
  
   return (
 
-    <header className='fixed w-full z-30' style={{backgroundImage:"url('./background.jpeg')"}}>
+    <header className='fixed w-full z-30' style={{backgroundImage:"url('/background.jpeg')"}}>
         <nav className="flex justify-between items-center w-full h-16 xl:h-20 px-10">
             <div className='poppins-semibold text-white text-3xl'>
                <p>Safe-<span className='text-[#E19930]'>A</span>s</p>

@@ -49,7 +49,7 @@ const Cards = () => {
       ]
       
   return (
-    <div id='plans' className='px-10 py-5  flex items-center flex-col gap-y-4  ' style={{ backgroundImage: "url('./stains/10.png')", backgroundSize: "contain" }}>
+    <div id='plans' className='px-10 py-5  flex items-center flex-col gap-y-4  ' style={{ backgroundImage: "url('/stains/10.png')", backgroundSize: "contain" }}>
         <h1 className='text-center poppins-bold w-full text-2xl sm:text-4xl bg-[#22364E] py-1 rounded-tr-2xl rounded-bl-2xl rounded-br-2xl text-white'>PLANLANAN GELİŞMELER</h1>
         <div className='grid lg:grid-cols-3 gap-x-6  gap-y-6 '>
           {
