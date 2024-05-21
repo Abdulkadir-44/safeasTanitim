@@ -10,7 +10,7 @@ const Header = () => {
     <header className='fixed w-full z-30' style={{backgroundImage:"url('/background.jpeg')"}}>
         <nav className="flex justify-between items-center w-full h-16 xl:h-20 px-10">
             <div className='poppins-semibold text-white text-3xl'>
-               <p>Safe-<span className='text-[#E19930]'>A</span>s</p>
+               <a href='#'>Safe-<span className='text-[#E19930]'>A</span>s</a>
             </div>
             <div  
                 className={`max-md:bg-[#22364E] duration-500 md:static absolute  md:min-h-fit  top-16  ${!isOpen ? 'left-[-100%]':'left-0'} md:w-auto  w-full flex items-center px-2 poppins-regular`}>
