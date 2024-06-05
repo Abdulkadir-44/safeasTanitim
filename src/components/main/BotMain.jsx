@@ -12,18 +12,29 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">BASIC</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">5000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">5000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$14.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Tüm Pazaryerleri</span>
                                 </li>
+
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -60,13 +71,23 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white  rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">STANDART</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">10.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">10.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$25.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -108,13 +129,23 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">ADVANCED</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">25.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">25.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$49.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -156,13 +187,23 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white  rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">PREMIUM</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">50.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">50.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$89.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -204,13 +245,23 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">ELITE</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">100.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">100.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$138.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -252,13 +303,23 @@ const BotMain = () => {
 
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">ENTERPRISE</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">150.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">150.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$204.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -298,16 +359,26 @@ const BotMain = () => {
                             <a href="https://panel.safeastr.com/pricing" target='_blank' className="text-white bg-[#E19930] hover:bg-yellow-700   font-medium rounded-lg text-sm px-5 py-2.5 text-center poppins-regular"> Hemen Satın Al</a>
                         </div>
 
-                        
+
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">PLATINIUM</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">200.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">200.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$274.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -347,16 +418,89 @@ const BotMain = () => {
                             <a href="https://panel.safeastr.com/pricing" target='_blank' className="text-white bg-[#E19930] hover:bg-yellow-700   font-medium rounded-lg text-sm px-5 py-2.5 text-center poppins-regular"> Hemen Satın Al</a>
                         </div>
 
-                        
+
                         <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
                             <h3 className=" text-2xl font-semibold">V.I.P.</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">250.000 ASIN</p>
+                            <p className="font-light  sm:text-lg  text-gray-400">250.000 SAFE-AS TOKEN</p>
                             <div className="flex justify-center items-baseline my-4">
                                 <span className="mr-2 text-5xl font-extrabold">$344.99</span>
                                 <span className="  text-gray-400">/aylık</span>
                             </div>
 
-                            <ul role="list" className="mb-8 space-y-4 text-left">
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>Tüm Pazaryerleri</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>8 Filtre</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>Yapay Zeka</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>%100 Fikri Mülkiyet Şikayeti Koruma Garantisi</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>Planlanan Güncellemelere Erişim</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>7/24 Müşteri Hizmetleri Desteği</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>Sınırsız Kullanıcı Sayısı</span>
+                                </li>
+                            </ul>
+                            <a href="https://panel.safeastr.com/pricing" target='_blank' className="text-white bg-[#E19930] hover:bg-yellow-700   font-medium rounded-lg text-sm px-5 py-2.5 text-center poppins-regular"> Hemen Satın Al</a>
+                        </div>
+
+                        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-lg border  shadow  border-gray-600 xl:p-8  bg-gray-800 ">
+                            <h3 className=" text-2xl font-semibold">V.I.P. PLUS</h3>
+                            <p className="font-light  sm:text-lg  text-gray-400">Sınırsız SAFE-AS TOKEN</p>
+                            <div className="flex justify-center items-baseline my-4">
+                                <span className="mr-2 text-5xl font-extrabold">Yakında</span>
+
+                            </div>
+
+                            <ul role="list" className="mb-8 space-y-3 text-left">
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
+                                </li>
+                                <li className="flex items-center space-x-3">
+
+                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span>Masaüstü Uygulama</span>
+                                </li>
                                 <li className="flex items-center space-x-3">
 
                                     <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -397,7 +541,7 @@ const BotMain = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </section>
 
         </>

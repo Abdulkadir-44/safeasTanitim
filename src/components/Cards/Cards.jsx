@@ -45,11 +45,18 @@ const Cards = () => {
           image : "/cardsBg/bg-6.avif"
           // image : "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
+        {
+          id : 7,
+          title : "Seller Partner API Entegrasyonu",
+          content : "Safe-As, Amazon SP-API ortaklığı onaylandı! Bu sayede envanterinizde bulunan ürünleri tekrar kontrol etmeye gerek duymadan analiz edebilmiş olacaksınız. Aynı zamanda statüsü değişen ürünler de sizlerin izniyle mağazanızdan otomatik olarak silinebilecek.",
+          image : "/cardsBg/bg-7.webp"
+          // image : "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
         
       ]
       
   return (
-    <div id='plans' className='px-10 py-5  flex items-center flex-col gap-y-4  ' style={{ backgroundImage: "url('/stains/10.png')", backgroundSize: "contain" }}>
+    <div id='plans' className='px-10 py-5  flex items-center flex-col gap-y-4  ' style={{ backgroundImage: "url('/stains/10.png')", backgroundSize: "contain", backgroundPosition:"bottom" }}>
         <h1 className='text-center poppins-bold w-full text-2xl sm:text-4xl bg-[#22364E] py-1 rounded-tr-2xl rounded-bl-2xl rounded-br-2xl text-white'>PLANLANAN GELİŞMELER</h1>
         <div className='grid lg:grid-cols-3 gap-x-6  gap-y-6 '>
           {
