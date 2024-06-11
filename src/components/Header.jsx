@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import {faBars,faTimes} from "@fortawesome/free-solid-svg-icons"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
 
 const Header = () => {
@@ -43,7 +44,7 @@ const Header = () => {
                 <a href="https://panel.safeastr.com/login" target='_blank' className='text-white hidden md:inline px-4 py-2 rounded-md poppins-regular hover:bg-[#E1A530] hover:text-white  duration-200 border border-white hover:border-[#E1A530]'>Giriş Yap</a>
                <div className='md:hidden block cursor-pointer ' onClick={()=>setIsOpen(!isOpen)}>
                {
-                  isOpen ? <FaTimes/> : <FaBars/> 
+                  isOpen ? <FontAwesomeIcon icon={faTimes}/> : <FontAwesomeIcon icon={faBars}/> 
                 }
                </div>
             </div>

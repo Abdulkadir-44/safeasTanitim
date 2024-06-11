@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaInstagram, FaWhatsapp } from "react-icons/fa"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faInstagram,faWhatsapp} from "@fortawesome/free-brands-svg-icons"
 import {Link} from "react-router-dom"
 
 
@@ -21,13 +22,13 @@ const Footer = () => {
           <h1 className='poppins-medium text-white text-4xl mb-4'>Safe-<span className='text-[#E1A530] text-[40px]'>A</span>s</h1>
           <p className='poppins-regular text-white'>Dünyada tek,yapay-zeka destekli Amazon Hesap Sağlığı Yazılımı </p>
           <div className='text-4xl flex gap-x-3 mt-10 justify-center sm:justify-start mb-10 sm:mb-0'>
-            <a aria-label='Instagram' className='text-white bg-[#E19930] p-2 rounded-full hover:text-[#E19930] hover:bg-white duration-150 hover:scale-110' target='_blank'  href="https://www.instagram.com/safeasofficial/">
-            <span aria-hidden="true"><FaInstagram /></span>
+            <a aria-label='Instagram' className='text-white bg-[#E19930]  w-14 h-14 flex justify-center items-center rounded-full hover:text-[#E19930] hover:bg-white duration-150 hover:scale-110' target='_blank'  href="https://www.instagram.com/safeasofficial/">
+            <span aria-hidden="true"><FontAwesomeIcon  className='w-10 h-10' icon={faInstagram} /></span>
             </a>
             <a onClick={handleClick}
             aria-label='Whatsapp'
-              className='text-white bg-[#57D970] p-2 rounded-full hover:text-[#57D970] hover:bg-white duration-150 hover:scale-110' target='_blank' href={`${isconfirm ? 'https://wa.me/905550905221' : '#'}`}>
-                <span aria-hidden="true"><FaWhatsapp /></span>
+              className='text-white bg-[#57D970]  rounded-full w-14 h-14 flex justify-center items-center hover:text-[#57D970] hover:bg-white duration-150 hover:scale-110' target='_blank' href={`${isconfirm ? 'https://wa.me/905550905221' : '#'}`}>
+                <span aria-hidden="true"><FontAwesomeIcon className='w-10 h-10' icon={faWhatsapp} /></span>
               </a>
 
           </div>
