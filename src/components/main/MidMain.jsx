@@ -4,7 +4,7 @@ export const MidMain = () => {
 
     return (
         <>
-            <div  id='solutions' style={{ backgroundImage: "url('/stains/9.png')", backgroundSize: "cover" }}>
+            <div  id='solutions' style={{ backgroundImage: "url('/stains/9.webp')", backgroundSize: "cover" }}>
                 <div className='flex items-center justify-center pt-6'>
                     <h1 className='text-3xl poppins-semibold bg-[#1F3C54] text-white px-5 py-2 rounded-xl'>ÇÖZÜMLER</h1>
                 </div>

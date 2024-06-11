@@ -23,7 +23,7 @@ const faqContent = [
     content: "Hayır, Safe-As yazılımı Planlanan gelişmeler de dahil olmak üzere kapsamlı bir Amazon Hesap Sağlığı destek yazılımıdır."
   }
 ]
-
+// h1 için semibold
 const FAQ = () => {
   return (
     <>

@@ -65,7 +65,7 @@
     font-style: normal;
   }
   
-  .poppins-extrabold {
+  /* .poppins-extrabold {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -75,19 +75,19 @@
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
-  }
+  } */
   
-  .poppins-thin-italic {
+  /* .poppins-thin-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: italic;
-  }
+  } */
   
-  .poppins-extralight-italic {
+  /* .poppins-extralight-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: italic;
-  }
+  } */
   
   .poppins-light-italic {
     font-family: "Poppins", sans-serif;
@@ -119,7 +119,7 @@
     font-style: italic;
   }
   
-  .poppins-extrabold-italic {
+  /* .poppins-extrabold-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: italic;
@@ -129,5 +129,5 @@
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
-  }
+  } */
   

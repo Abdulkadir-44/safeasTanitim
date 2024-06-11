@@ -7,7 +7,7 @@ const Header = () => {
  
   return (
 
-    <header className='fixed w-full z-30' style={{backgroundImage:"url('/background.jpeg')"}}>
+    <header className='fixed w-full z-30' style={{backgroundImage:"url('/background.webp')"}}>
         <nav className="flex justify-between items-center w-full h-16 xl:h-20 px-10">
             <div className='poppins-semibold text-white text-3xl'>
                <a href='#'>Safe-<span className='text-[#E19930]'>A</span>s</a>
@@ -39,7 +39,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="flex items-center gap-6 text-white">
-                <a href='https://panel.safeastr.com/register' target='_blank' class="text-white hidden md:inline   rounded-md poppins-regular px-4 py-2 hover:bg-[#E1A530] hover:text-white  duration-200 border border-white hover:border-[#E1A530]">Kayıt Ol</a>
+                <a href='https://panel.safeastr.com/register' target='_blank' className="text-white hidden md:inline   rounded-md poppins-regular px-4 py-2 hover:bg-[#E1A530] hover:text-white  duration-200 border border-white hover:border-[#E1A530]">Kayıt Ol</a>
                 <a href="https://panel.safeastr.com/login" target='_blank' className='text-white hidden md:inline px-4 py-2 rounded-md poppins-regular hover:bg-[#E1A530] hover:text-white  duration-200 border border-white hover:border-[#E1A530]'>Giriş Yap</a>
                <div className='md:hidden block cursor-pointer ' onClick={()=>setIsOpen(!isOpen)}>
                {

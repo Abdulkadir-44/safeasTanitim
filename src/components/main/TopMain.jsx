@@ -1,8 +1,9 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+// ilk h1 semibold ilk span bold , ikinci h1 medium 3.div regular
 const TopMain = () => {
   return (
-    <div className='xl:h-screen pb-4 xl:pb-0 px-10 pt-24 rounded-br-lg rounded-bl-lg' style={{backgroundImage:"url('/background.jpeg')"}}>
+    <div className='xl:h-screen pb-4 xl:pb-0 px-10 pt-24 rounded-br-lg rounded-bl-lg' style={{backgroundImage:"url('/background.webp')"}}>
         <div className='flex justify-center'>
           <div className='sm:w-[70%] w-[90%] rounded-lg sm:mt-10 text-center'>
             <h1 className='text-white text-center poppins-semibold  text-5xl sm:text-6xl sm:mb-4'>Safe-<span className='text-[#E1A530] poppins-bold'>A</span>s ile</h1>

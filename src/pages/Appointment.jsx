@@ -1,9 +1,8 @@
 import React from 'react'
-import { message } from "antd"
 import { useFormik } from "formik"
 import { basicSchema } from '../schemas/schema'
 import { Helmet } from "react-helmet"
-
+import {toast} from "sonner"
 
 
 const Appointment = () => {
@@ -17,11 +16,11 @@ const Appointment = () => {
     });
 
     if (response.ok) {
-      message.success("Mesajınız alındı!");
+      toast.success("Randevu talebiniz oluşturuldu !");
       actions.resetForm()
 
     } else {
-      message.error("Birşeyler yanlış gitti !")
+      toast.error("Birşeyler yanlış gitti !")
     }
   }
 
@@ -43,9 +42,22 @@ const Appointment = () => {
   return (
     <>
       <Helmet>
-        <title>Randevu Al</title>
+        {/* <title>Randevu Al</title> */}
+        <title>Safe-As - Randevu Al</title>
+        <meta name="description" content="Amazon hesap sağlığı yazılımımız hakkında bilgi almak ve randevu oluşturmak için bu sayfayı kullanın. Dropshipping  yapanlar için mükemmel çözümler sunuyoruz." />
+        <meta name="keywords" content="Amazon hesap sağlığı, randevu, dropshipping, e-ticaret, satış artırma" />
+        <meta name="keywords" content="Amazon suspend, fikri mülkiyet,ahr suspend,dropshipping" />
+        <meta property="og:title" content="Safe-As - Randevu" />
+        <meta property="og:description" content="Amazon hesap sağlığı yazılımımız hakkında bilgi almak ve randevu oluşturmak için bu sayfayı kullanın. Dropshipping  yapanlar için mükemmel çözümler sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.safeastr.com/randevu-al" />
+        {/* <meta property="og:image" content="https://www.yourwebsite.com/images/appointment-image.jpg" /> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Safe-As - Randevu" />
+        <meta name="twitter:description" content="Amazon hesap sağlığı yazılımımız hakkında bilgi almak ve randevu oluşturmak için bu sayfayı kullanın. Dropshipping yapanlar için mükemmel çözümler sunuyoruz." />
+        {/* <meta name="twitter:image" content="https://www.yourwebsite.com/images/appointment-image.jpg" /> */}
       </Helmet>
-      <div className=' min-h-screen w-full flex justify-center items-center' style={{ backgroundImage: "url('/background.jpeg')", backgroundSize: "cover" }}>
+      <div className=' min-h-screen w-full flex justify-center items-center' style={{ backgroundImage: "url('/background.webp')", backgroundSize: "cover" }}>
         <div className=' w-[90%] md:w-[50%] bg-transparent backdrop-blur-3xl p-5 rounded-lg border'>
           <h1 className='text-center poppins-semibold text-4xl text-white'>Safe-<span className='text-[#E19930]'>A</span>s</h1>
           <form className='flex flex-col poppins-light' onSubmit={handleSubmit}>
