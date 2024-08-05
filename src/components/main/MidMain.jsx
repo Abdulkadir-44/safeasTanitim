@@ -1,4 +1,3 @@
-import React from 'react'
 import FAQ from '../accordion/FAQ'
 export const MidMain = () => {
 
@@ -42,7 +41,7 @@ export const MidMain = () => {
                         </div>
                         <p className='poppins-regular'>Yaptığımız piyasa araştırmalarına göre; <br /> <br />
 
-                            AHR Suspend'i için $300-$450 <br />
+                            AHR Suspend&apos;i için $300-$450 <br />
                             Fikri Mülkiyet İhlali için $50-$150
                             istenmektedir.</p>
                     </div>
@@ -60,7 +59,7 @@ export const MidMain = () => {
                             <h1 className='poppins-semibold text-3xl text-[#1E364E] '>Geçiçi Çözümlerden Sıkılmadın Mı ?</h1>
                             <span className='sm:w-8 sm:h-8 w-16 h-8 text-white bg-green-500 rounded-full flex justify-center items-center poppins-regular'>4</span>
                         </div>
-                        <p className='poppins-regular'>Sahte faturalar veya Marka sahibi ile iletişim, Amazon'da satış deneyiminizi ve mağazanızın itibarını kötü etkilemektedir.</p>
+                        <p className='poppins-regular'>Sahte faturalar veya Marka sahibi ile iletişim, Amazon&apos;da satış deneyiminizi ve mağazanızın itibarını kötü etkilemektedir.</p>
                     </div>
 
                 </div>

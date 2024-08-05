@@ -1,4 +1,3 @@
-import React from 'react'
 const packages = [
     {
         name: "BASIC",
@@ -48,8 +47,15 @@ const packages = [
         price: 344.99,
         feature: ["1 Safe-As Token = 1 ASIN Tarama", "10 Safe-As Token = 1 Marka Tarama", "Tüm Pazaryerleri", "8 Filtre", "Yapay Zeka", "%100 Fikri Mülkiyet Şikayeti Koruma Garantisi", "Planlanan Güncellemelere Erişim", "7/24 Müşteri Hizmetleri Desteği", "Sınırsız Kullanıcı Sayısı"]
     },
+    {
+        name: "V.I.P PLUS",
+        tokenCount: "SINIRSIZ SAFE-AS TOKEN",
+        price: "Yakında",
+        feature: ["1 Safe-As Token = 1 ASIN Tarama", "10 Safe-As Token = 1 Marka Tarama", "Masaüstü Uygulama", "Tüm Pazaryerleri", "8 Filtre", "Yapay Zeka", "%100 Fikri Mülkiyet Şikayeti Koruma Garantisi", "Planlanan Güncellemelere Erişim", "7/24 Müşteri Hizmetleri Desteği", "Sınırsız Kullanıcı Sayısı"]
+    }
 ]
 const BotMain = () => {
+    
     return (
         <>
             <section id='pricing' className="bg-[#22364E]">
@@ -65,8 +71,10 @@ const BotMain = () => {
                                     <h3 className=" text-2xl font-semibold">{pck.name}</h3>
                                     <p className="font-light  sm:text-lg  text-gray-400">{pck.tokenCount}</p>
                                     <div className="flex justify-center items-baseline my-4">
-                                        <span className="mr-2 text-5xl font-extrabold">${pck.price}</span>
-                                        <span className="  text-gray-400">/aylık</span>
+                                        
+                                        {
+                                            index != 8 ? (<span className="mr-2 text-5xl font-extrabold">${pck.price} <span className="text-sm poppins-regular text-gray-400">/aylık</span> </span>) : <span className="mr-2 text-5xl font-extrabold">YAKINDA</span>
+                                        }
                                     </div>
 
                                     <ul role="list" className="mb-8 space-y-3 text-left">
@@ -85,67 +93,7 @@ const BotMain = () => {
                                 </div>
                             ))
                         }
-                        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-white  rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 ">
-                            <h3 className=" text-2xl font-semibold">V.I.P PLUS</h3>
-                            <p className="font-light  sm:text-lg  text-gray-400">SINIRSIZ SAFE-AS TOKEN</p>
-                            <div className="flex justify-center items-baseline my-4">
-                                <span className="mr-2 text-5xl font-extrabold">Yakında</span>
-                            </div>
 
-                            <ul role="list" className="mb-8 space-y-3 text-left">
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>1 Safe-As Token = 1 ASIN Tarama</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>10 Safe-As Token = 1 Marka Tarama</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>Masaüstü Uygulama</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>Tüm Pazaryerleri</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>8 Filtre</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>Yapay Zeka</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>%100 Fikri Mülkiyet Şikayeti Koruma Garantisi</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>Planlanan Güncellemelere Erişim</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>7/24 Müşteri Hizmetleri Desteği</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-
-                                    <svg className="flex-shrink-0 w-5 h-5   text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span>Sınırsız Kullanıcı Sayısı</span>
-                                </li>
-                            </ul>
-                            <a href="https://panel.safeastr.com/pricing" target='_blank' className="text-white bg-[#E19930] hover:bg-yellow-700   font-medium rounded-lg text-sm px-5 py-2.5 text-center poppins-regular"> Hemen Satın Al</a>
-                        </div>
                     </div>
                 </div>
 
@@ -156,3 +104,4 @@ const BotMain = () => {
 }
 
 export default BotMain
+

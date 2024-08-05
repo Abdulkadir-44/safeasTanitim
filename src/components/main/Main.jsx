@@ -1,4 +1,3 @@
-import React from 'react'
 import TopMain from './TopMain'
 import { MidMain } from './MidMain'
 import BotMain from './BotMain'

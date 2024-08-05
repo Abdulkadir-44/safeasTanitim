@@ -1,9 +1,8 @@
-import React from 'react'
 import { useFormik } from "formik"
 import { basicSchema } from '../schemas/schema'
 import { Helmet } from "react-helmet"
-import {toast} from "sonner"
-
+import { toast } from "sonner"
+import { motion } from "framer-motion"
 
 const Appointment = () => {
 
@@ -58,7 +57,10 @@ const Appointment = () => {
         {/* <meta name="twitter:image" content="https://www.yourwebsite.com/images/appointment-image.jpg" /> */}
       </Helmet>
       <div className=' min-h-screen w-full flex justify-center items-center' style={{ backgroundImage: "url('/background.webp')", backgroundSize: "cover" }}>
-        <div className=' w-[90%] md:w-[50%] bg-transparent backdrop-blur-3xl p-5 rounded-lg border'>
+        <motion.div
+          initial={{ opacity: 0 , translateY:30 }}
+          animate={{ opacity: 1 , translateY : 0 }}
+          className=' w-[90%] md:w-[50%] bg-transparent backdrop-blur-3xl p-5 rounded-lg border'>
           <h1 className='text-center poppins-semibold text-4xl text-white'>Safe-<span className='text-[#E19930]'>A</span>s</h1>
           <form className='flex flex-col poppins-light' onSubmit={handleSubmit}>
 
@@ -118,7 +120,7 @@ const Appointment = () => {
             <button disabled={isSubmitting} type='submit' className={`bg-[#E19930] mt-4 max-sm:text-xs hover:bg-yellow-600 duration-150 rounded-md py-2 text-white ${isSubmitting ? 'opacity-50' : 'opacity-100'}`}>Gönder</button>
           </form>
 
-        </div>
+        </motion.div>
       </div>
     </>
   )
